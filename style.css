@@ -17,14 +17,58 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    justify-content: center;*/
+    justify-content: center;
+    
+    
+    
+    
+     
+     
+    
+    
+    */
     }
     .bloco_inicial{
      background-color: rgb(217, 224, 217);
      display: flex;
-
-
     }
     .frase_inicial h1{
     color: gray;
+    }
+
+    nav#menu {
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    nav#menu ul {
+        list-style: none;
+        text-transform: uppercase; 
+        position: absolute;
+        top: -10px;
+        left: 700px;
+    }
+
+    nav#menu li{
+        display: inline-block;
+        background-color:rgb(217, 224, 217);
+	    padding: 10px;
+	    margin: 2px;
+        transition: 1s;
+
+    }
+
+    nav#menu li:hover {
+        background-color: #606060;
+    }
+    
+   
+    
+    nav#menu a {
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    nav#menu a:hover {
+        color: #ffffff;
     }
