@@ -1,37 +1,13 @@
 
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 14px;
-    }*/
-    
     body{
    background-color: grey;
-    
-    /*width: 100%;
-    background-color: rgb(221, 213, 213);
-    display: flex;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    
-    
-    
-    
-     
-     
-    
-    
-    */
     }
+
     .bloco_inicial{
      background-color: rgb(217, 224, 217);
      display: flex;
     }
+
     .frase_inicial h1{
     color: gray;
     }
@@ -75,6 +51,16 @@
 
     article#sobre {
         margin-top: 200px;
+    }
 
+    article#projetos{
+        display: flex;
+    }
 
+    article#projetos ul{
+       list-style: none;
+    }
+
+   article#projetos li{
+        display: inline-block;
     }
