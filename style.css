@@ -16,12 +16,19 @@
     }
 
     .bloco_inicial{
-     background: var(--main-color);
+      background-image: linear-gradient(to top right,  #43389F , #4ec6ca );
      display: flex;
+     padding: 0px;
     }
 
     .frase_inicial h1{
     color: black;
+    }
+
+    .foto_inicial{
+      position: block;
+      margin: 0px;
+      padding: 0px;
     }
 
     nav#menu {
@@ -77,42 +84,4 @@
         display: inline-block;
     }
 
-    .habilidades .skill-bar h3 {
-        margin-top: 2rem;
-      }
-      
-      .habilidades .skill-bar h3 span {
-        display: block;
-        text-align: end;
-      }
-      
-      .habilidades .skill-bar .bar {
-        width: 100%;
-        height: .5rem;
-        background: #ccc;
-        position: relative;
-      }
-      
-      .habilidades .skill-bar .bar span {
-        position: absolute;
-        display: block;
-        height: 100%;
-        width: 100%;
-        background: #225687;
-      }
-      
-      .habilidades .skill-bar .bar1 span {
-        width: 95%;
-      }
-      
-      .habilidades .skill-bar .bar2 span {
-        width: 85%;
-      }
-      
-      .habilidades .skill-bar .bar3 span {
-        width: 65%;
-      }
-      
-      .habilidades .skill-bar .bar4 span {
-        width: 75%;
-      }
+    
