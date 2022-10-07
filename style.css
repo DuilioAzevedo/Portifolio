@@ -23,6 +23,23 @@
 
     .frase_inicial h1{
     color: black;
+    font-size: 86px;
+    animation: modalopen 5s;
+    }
+
+    .frase_inicial h2{
+        color: black;
+        font-size: 26px;
+        animation: modalopen 5s;      
+        }
+
+    @keyframes modalopen{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
     }
 
     .foto_inicial{
@@ -41,7 +58,7 @@
         text-transform: uppercase; 
         position: absolute;
         top: -10px;
-        left: 700px;
+        left: 900px;
     }
 
     nav#menu li{
