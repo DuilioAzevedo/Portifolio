@@ -16,10 +16,11 @@
     }
 
     .bloco_inicial{
-      background-image: linear-gradient(to top right,  #43389F , #4ec6ca );
+     /*background-image: linear-gradient(to top right,  #43389F , #4ec6ca );*/
      display: flex;
      padding: 0px;
     }
+    
 
     .frase_inicial h1{
     color: black;
